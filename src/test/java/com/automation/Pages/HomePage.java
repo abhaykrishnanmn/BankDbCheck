@@ -35,13 +35,13 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//*[@id='fromAccount']")
     WebElement accType;
 
-    @FindBy(xpath = "//*[@id='fromAccount']/option[2]")
+    @FindBy(xpath = "//*[@id='fromAccount']/option[5]")
     WebElement accSelect;
 
     @FindBy(xpath = "//*[@id='toAccount']")
     WebElement accToType;
 
-    @FindBy(xpath = "//*[@id='toAccount']/option[3]")
+    @FindBy(xpath = "//*[@id='toAccount']/option[4]")
     WebElement accToSelect;
 
     @FindBy(xpath = "//*[@id='amount']")
@@ -118,7 +118,7 @@ public class HomePage extends BasePage {
         accSelect.click();
         accToType.click();
         accToSelect.click();
-        accAmountIn.sendKeys("200");
+        accAmountIn.sendKeys("20");
         submit.click();
     }
 

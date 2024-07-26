@@ -61,7 +61,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>CucumberClassFramework</projectName>
+                            <projectName>BankDbCheck</projectName>
                             <outputDirectory>CucumberReport</outputDirectory>
                         </configuration>
                     </execution>
